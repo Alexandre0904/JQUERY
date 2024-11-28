@@ -308,8 +308,8 @@ a {
 .footer .social-icons a {
 	width: 32px;
 	height: 32px;
-	color: #fff;
-	background-color: #aaa;
+	color: #0f0202;
+	background-color: #14c41d;
 	text-align: center;
 	display: inline-block;
 	line-height: 33px;
@@ -428,7 +428,7 @@ a {
 .page-navigation ul li.current-page a {
 	background-color: #3a8bcd;
 	border-color: #3a8bcd;
-	color: #fff;
+	color: #ffffff;
 }
 
 
@@ -738,3 +738,21 @@ a {
 	} 
 
 }
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons ul li a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons ul li a:hover {
+    opacity: 0.8;
+}
+
